@@ -35,8 +35,28 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local:
     ```bash
     npm install
     ```
+3. **Manejo de Vulnerabilidades:**
 
-3. **Ejecuta la aplicación:**
+    Es posible que al instalar las dependencias se detecten vulnerabilidades de seguridad. Si ves un mensaje similar al siguiente:
+
+    ```
+    8 vulnerabilities (2 moderate, 6 high)
+    ```
+
+    Puedes resolver estas vulnerabilidades ejecutando:
+
+    ```bash
+    npm audit fix
+    ```
+
+    Si aún quedan vulnerabilidades después de este paso o si se requiere forzar la actualización de dependencias, utiliza:
+
+    ```bash
+    npm audit fix --force
+    ```
+
+
+4. **Ejecuta la aplicación:**
 
     Una vez que se hayan instalado las dependencias, ejecuta el siguiente comando para iniciar la aplicación:
 
@@ -44,7 +64,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local:
     npm start
     ```
 
-4. **Visita la aplicación en tu navegador:**
+5. **Visita la aplicación en tu navegador:**
 
     La aplicación estará disponible en `http://localhost:3000/`.
 
