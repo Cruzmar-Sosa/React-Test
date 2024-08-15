@@ -23,8 +23,9 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local:
 1. **Clona el repositorio:**
 
     ```bash
-    git clone https://github.com/tu-usuario/react-practica.git
-    cd react-practica
+    git clone https://github.com/Cruzmar-Sosa/React-Test.git
+    cd React-Test/
+    cd FRONTEND/
     ```
 
 2. **Instala las dependencias:**
