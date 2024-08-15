@@ -1,0 +1,55 @@
+/* EmployeeForm.css */
+span{
+  display: none;
+  color: rgba(255, 0, 0, 0.677);
+  font-style: italic;
+  
+}
+
+form {
+    width: 100%; /* Ancho completo del contenedor */
+    max-width: 600px; /* Tamaño máximo del formulario */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-left: 20px; /* Ajusta el margen izquierdo según sea necesario */
+  }
+  
+  div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  button.bt-form {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  
